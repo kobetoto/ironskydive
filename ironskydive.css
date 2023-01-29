@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700');
+
+html,
+
+.dark-background{
+  background: rgb(25, 33, 41);
+  color: white;
+  margin-top: 100px
+}
+
+body
+{
+  font-family: Roboto;
+  font-size: 10px;
+  line-height: 3,5em;
+  font-weight: 300;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+  font-family: Roboto Condensed
+}
+
+h1{
+  font-size: 9em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+h2{
+  font-size: 5em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+h3{
+  font-size: 4.2em;
+  text-align: center;
+  line-height: 1em;
+}
+
+h4{
+  font-size: 1.5em;
+  letter-spacing: 0.4px;
+  line-height: 1em;
+}
+
+h5{
+  font-size: 1.2em;
+  line-height: 1em;
+}
+
+.nav-bar{
+  background: rgb(25, 33, 41);
+  padding: 14px 0px 14px 0px;
+}
+.nav-bar a{
+color: white; 
+font-size: 2em;
+}
+
+.nav-bar-ul{    
+  width: 1200px;
+  list-style: none; 
+  margin: 0 auto;
+  text-align: center;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+
+
+.header{
+  background-image: url("https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/ironhack-skydive-background.jpg");
+  background-position: 0 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  text-shadow: #020819 8px -20px 9px;
+  height: 650px;
+  padding: 50px 0px 0px 0px;
+
+}
+
+
+.quote{
+  font-size: 1.5em;
+  position: absolut;
+  bottom: 100px;
+  left: 10%;
+  color: black
+}
+
+#general-information{
+      background-color: rgb(25, 33, 41);
+      color: white;
+  font-size: 1.0em;
+  display: flex;
+  justify-content: center;
+}
+
+.general-info p{
+  margin: 20px 0px 20px 0px;
+  flex-direction: column;
+  justify-content: center;
+  width: 370px;
+  
+}
+
+.info{
+      font-weight: 100;
+      text-align: center;
+      width: 1200px;
+      margin: 0 auto;
+      padding: 75px 0;
+}
+
+.about-us{
+      font-weight: 100;
+      text-align: center;
+        width: 1200px;
+      margin: 0 auto;
+      padding: 75px 0;
+}
+
+.join{
+      font-weight: 100;
+      text-align: center;
+        width: 1200px;
+      margin: 0 auto;
+      padding: 75px 0;
+}
+
+.info a{
+  background-color: rgb(67, 163, 230);
+  color: white;
+  font-family: Roboto Condensed;
+  font-size: 2em;
+  letter-spacing: 0.5px;
+  text-align: center;
+  text-decoration: none; 
+}
+.about-us a{
+  background-color: rgb(67, 163, 230);
+  color: white;
+  font-family: Roboto Condensed;
+  font-size: 2em;
+  letter-spacing: 0.5px;
+  text-align: center;
+  text-decoration: none; 
+}
+
+.join a{
+  background-color: rgb(67, 163, 230);
+  color: white;
+  font-family: Roboto Condensed;
+  font-size: 2em;
+  letter-spacing: 0.5px;
+  text-align: center;
+  text-decoration: none; 
+}
+
+.service-box{
+  font-size: 1.7em;
+  text-align: center;
+  border: 2px solid #eee;
+  border-radius: 20px;
+  box-sizing: border-box;
+  box-shadow: 2px 2px 10px 0 #eee;
+  margin: 50px 5% 0 5%;
+  padding: 20px;
+  width: 40%;
+      display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.section-text{
+    font-size: 1.9em;
+  text-align: center;
+  width: 60%;
+  margin: 10px auto;
+}
+team hr{
+  margin: 20px auto 30px auto;
+  width: 40%;
+}
+.member-name{
+    font-size: 1.5em;
+    font-weight: 700;
+}
+#team{
+  padding: 75px 0;
+  margin: 0 auto;
+}
+#team img{
+    width: 250px;
+    height: 180px;
+}
+
+.footer{
+    text-align: center;
+    align-items: flex-start;
+    font-size: 1.5em;
+    padding: 40px 100px 40px 100px;
+    margin: 0 0 25px 0;
+}
+
+.adress{
+  font-style: normal;
+  font-size: 0.8em;
+  margin: 0 0 25px 0;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer a {
+color: rgb(67, 163, 230);
+}
+
+.container{
+  width: 1200px;
+  margin: 0 auto;
+  padding: 75px 0;
+}
+
+.schedule-table{
+  margin: 0 auto 40px auto;
+  font-size: 1.5em;
+
+}
+
+.schedule-table th,
+td{
+  border-bottom: 1px solid #17212e;
+}
+
+.team{
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dark-background div{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.map-frame{
+  height: 375px;
+  width: 60%;
+  display: flex-end;
+}
+
+.slot-form-container{
+  width: 40%;
+  right: auto;
+  bottom: 0;
+  left: auto;
+  font-size: 1.5em;
+  border: 1px solid bisque;
+  padding: 9px;
+  margin: 15px 0px 0px 0px;
+
+}
+
+.slot-form-container label{
+  line-height: 15px;
+  margin: 5px;
+}
+
+.slot-form-container input, select{
+  height: 20px;
+  outline: none;
+  padding: 3px;
+  width: 100%;
+  text-align: center;
+}
